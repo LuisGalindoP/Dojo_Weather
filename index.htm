@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-nav">
+            <div class="top-nav-elements">
+                <p class="icon">DojoWeather</p>
+                <div class="top-nav-links">
+                    <a href="#" id="Burbank" class="top-nav-links" onclick="loadingWeather('Burbank')">Burbank</a>
+                    <a href="#" id="Chicago" class="top-nav-links" onclick="loadingWeather('Chicago')">Chicago</a>
+                    <a href="#" id="Dallas" class="top-nav-links" onclick="loadingWeather('Dallas')">Dallas</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <div class="information-bar">
+                <p class="city">San Jose</p>
+                <div class="temperature-seleection">
+                    <label for="temperature">show temperature in</label>
+                    <select name="degrees" id="celcius-farenheit" onchange="changeTemperature()">
+                        <option value="C">°C</option>
+                        <option value="F">°F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="days">
+                <div class="day-1">
+                    <p class="days-title">Today</p>
+                    <img src="images/some_rain.png" alt="some rain" class="weather-image">
+                    <p>some rain</p>
+                    <div class="min-max">
+                        <p class="degrees red">24</p>
+                        <p class="degrees blue">18</p>
+                    </div>
+                </div>
+                <div class="day-1">
+                    <p class="days-title">Tomorrow</p>
+                    <img src="images/some_sun.png" alt="some rain" class="weather-image">
+                    <p>some sun</p>
+                    <div class="min-max">
+                        <p class="degrees red">27</p>
+                        <p class="degrees blue">19</p>
+                    </div>
+                </div>
+                <div class="day-1">
+                    <p class="days-title">Friday</p>
+                    <img src="images//some_clouds.png" alt="some rain" class="weather-image">
+                    <p>some clouds</p>
+                    <div class="min-max">
+                        <p class="degrees red">21</p>
+                        <p class="degrees blue">16</p>
+                    </div>
+                </div>
+                <div class="day-1">
+                    <p class="days-title">Saturday</p>
+                    <img src="images/some_sun.png" alt="some rain" class="weather-image">
+                    <p>some sun</p>
+                    <div class="min-max">
+                        <p class="degrees red">26</p>
+                        <p class="degrees blue">21</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cookies">
+            <img src="images/cookie.png" alt="cookies" class="cookie-image">
+            <p class="cookie-title">Titulos es asi de grande <br><span class="text-regular">Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Ex non qui accusamus et a doloribus 
+                quia voluptate fuga nisi odio enim numquam, doloremque 
+                fugiat labore temporibus? Rerum quam aperiam cupiditate! </span><a href="#" class="text-regular">Read more</a> </p>
+            <button class="cookie-button" onclick="hideCookiesMessage()">I Accept</button>    
+        </div>
+    </div>
+    <!-- <button onclick="toF()">click</button> -->
+    <script src="script.js"></script>
+</body>
+</html>

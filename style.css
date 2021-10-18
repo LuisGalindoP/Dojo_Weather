@@ -1,0 +1,132 @@
+* {
+    margin = 0;
+    font-family:sans-serif;
+}
+.text-regular {
+    font-weight: normal;
+    font-size: medium;
+}
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    margin: auto;    
+    /* width: 860px; */
+}
+.top-nav {
+    background-color: rgb(136, 183, 255);
+}
+.icon {
+    color: white;
+    font-size: 50px;
+}
+.top-nav-elements {
+    width: 860px;
+    height: 80px;
+    margin: auto;   
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-nav-links {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    gap: 20px;
+    text-decoration: none;
+}
+.bottom-content {
+    background-color: rgb(255, 255, 255);
+    width: 860px;
+    margin: auto;
+}
+.information-bar {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    border-bottom: 4px solid black;
+}
+.days {
+    background-color: rgb(255, 255, 255);
+    /* height: 600px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.information-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.city {
+    font-weight: bold;
+    font-size: 30px;
+}
+.temperature-seleection {
+    font-weight: bold;
+}
+#celcius-farenheit {
+    width: 50px;
+    height: 30px;
+    border: 2px solid;
+}
+.day-1 {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 320px;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.days-title {
+    font-size: 25px;
+}
+.weather-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.min-max {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 20px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+
+.cookies {
+    width: 860px;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid black;
+    /* position: fixed; This just breaks all the automatic positioning of the page so I comment it
+    left: 65px; */
+
+}
+.cookie-image {
+    width: 60px;
+    height: 60px;
+}
+.cookie-title {
+    width: 600px;
+    font-weight: bold;
+    font-size: large;
+}
+.cookie-button {
+    background-color: rgb(136, 183, 255);
+    border: 3px solid black;
+    width: 80px;
+    height: 25px;
+    box-shadow: 3px 3px;
+}
